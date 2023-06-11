@@ -32,5 +32,5 @@ Server : Server is the make process for the request of client.
 
 Client side Scripting Language : JavaScript because JS is the universally supported.
 
-Server Side Scripting Language : customized for each  client's request to the website. 
+Server Side Scripting Language : Used NodeJS to give data to clients. 
 
