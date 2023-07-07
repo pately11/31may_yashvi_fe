@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InputField</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <form action="https://www.coursera.org/" target="_blank" method="post">
+            <label for="fnm">First name:</label>
+            <input type="text" name="fnm" id="" placeholder="Enter your First name" required>
+            <br><br>
+            <label for="lnm">Last Name:</label>
+            <input type="text" name="lnm" id="" placeholder="Enter your Last name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="" placeholder="Enter your Email" required>
+            <br><br>
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="" placeholder="Enter your Password" pattern="[0-9,a-z,@]{8}" required>
+            <br><br>
+            <label for="phn">Phone:</label>
+            <input type="tel" name="phn" id="" placeholder="Enter your Mobile NO." pattern="[0-9]{10}" required>
+            <br><br>
+            <label for="gen">Gender:</label>
+            Male<input type="radio" name="gen" id="">
+            Female<input type="radio" name="gen" id="">
+            Other<input type="radio" name="gen" id="">
+            <br><br>
+            <label for="cor">Course:</label> <br>
+            FrontEnd<input type="checkbox" name="cor" id=""> <br>
+            Web Designing<input type="checkbox" name="cor" id=""> <br>
+            BackEnd<input type="checkbox" name="cor" id=""> <br>
+            <br>
+            Color<input type="color" name="" id="">
+            <br> <br>
+            <label for="file">Upload:</label>
+            <input type="file" name="file" id="">
+            <br><br>
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="">
+            <br><br>
+            <label for="srch">Search:</label>
+            <input type="search" name="srch" id="">
+            <br><br>
+            <label for="img">Image:</label>
+            <input type="image" name="img" id="">
+            <br><br>
+            <label for="dt">Date:</label>
+            <input type="date" name="dt" id="">
+            <br><br>
+            <label for="tm">Time:</label>
+            <input type="time" name="tm" id="">
+            <br><br>
+            <label for="d&t">Date&Time:</label>
+            <input type="datetime-local" name="d&t" id="">
+            <br><br>
+            <label for="dtm">Date&Time</label>
+            <input type="datetime" name="dtm" id="">
+            <br><br>
+            <label for="mnth">Month:</label>
+            <input type="month" name="mnth" id="">
+            <br><br>
+            <label for="wk">Week:</label>
+            <input type="week" name="wk" id="">
+            <br><br>
+            <label for="rng">Range:</label>
+            <input type="range" name="rng" id="">
+            <br><br>
+            City:<select name="city" id="">
+                <option value="Rajkot">Rajkot</option>   
+                <option value="Ahmadabad">Ahmadabad</option> 
+                <option value="Gandhinagar">Gandhinagar</option>
+                <option value="Jamnagar">Jamnagar</option>
+            </select>
+            <br><br>
+            <input type="submit" name="" id="" value="Sign Up">
+            <input type="reset" name="" id="">
+        </form>
+    </fieldset>
+</body>
+</html>
