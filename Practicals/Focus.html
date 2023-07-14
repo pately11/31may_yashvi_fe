@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus</title>
+    <style>
+        fieldset{
+            width: 50%;
+            padding: 20px;
+            border: 5px solid maroon;
+            border-radius: 30px;
+            background: url(images/Fimg.jpeg);
+            background-size: 100%, 100%;
+            color: white;
+        }
+        input:focus{
+            outline: none;
+            border: none;
+            border-bottom: 5px solid lightcoral;
+            background: lightgreen;
+        }
+        button:hover{
+            background: lightgreen;
+            color: #000;
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color:#FFA500;
+        }
+        a:active{
+            color: palevioletred;
+        }
+        a :visited{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <fieldset>
+        <form action="https://www.flipkart.com/" method="post">
+            <label for="fnm">Firsr Name:</label>
+            <input type="text" name="fnm" id="" required>
+            <br><br>
+            <label for="lnm">Last Name:</label>
+            <input type="text" name="lnm" id="" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="" required>
+            <br><br>
+            <label for="phn">Phone No:</label>
+            <input type="tel" name="phn" id="" pattern="[0-9]{10}" minlength="10" maxlength="10" required> 
+            <br><br>
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="" pattern="[0-9, a-z]{6}" minlength="6" maxlength="6" required>
+            <br><br>
+            <label for="gen">Gender:</label>
+            Male <input type="radio" name="gen" id="">
+            Female <input type="radio" name="gen" id="">
+            Other <input type="radio" name="gen" id="">
+            <br><br>
+            <button>Sign Up</button>
+            <button>Reset</button>
+            <br><br>
+            Already have an account? <a href="FoLogin.html" target="_blank">Login here!</a>
+        </form>
+    </fieldset>
+    </center>
+</body>
+</html>
