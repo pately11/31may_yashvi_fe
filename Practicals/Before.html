@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before</title>
+    <style>
+        div{
+            counter-reset: a;
+        }
+        h2::before{
+            content: counter(a) ". ";
+            counter-increment: a;
+        }
+        h2{
+            counter-reset: b;
+        }
+        p::before{
+            content: counter(a) "." counter(b) ". ";
+            counter-increment: b;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h2> MENU 1</h2>
+    <p>Item 1</p> 
+    <p>Item 2</p>
+    <p>Item 3</p>
+    <p>Item 4</p>
+    <p>Item 5</p>
+    <h2>MENU 2</h2>
+    <p>Item 1</p> 
+    <p>Item 2</p>
+    <p>Item 3</p>
+    <p>Item 4</p>
+    <p>Item 5</p>
+</div>
+</body>
+</html>
