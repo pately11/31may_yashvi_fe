@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Que-10</title>
+    </head>
+    <body>
+        <h2>Que-10 How can we club two or more rows or columns into a single row or column in an HTML table? With Example.</h2>
+        <hr>
+        <p>Using colspan and rowspan we can club two or more rows or columns into a single row or column in a HTML table. 
+        For Example:- 
+        <h3>RowSpan</h3>
+        <table border="1px">
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Gender</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Jayden</td>
+            <td>CSE</td>
+            <td>Male</td>
+            <td>40000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Eliana</td>
+            <td rowspan="2">IT</td>
+            <td>Female</td>
+            <td rowspan="2">350000</td>
+        </tr>
+        <!-- rowspan -->
+        <tr>
+            <td>3</td>
+            <td>Rowan</td>
+            <!-- <td>IT</td> -->
+            <td>Male</td>
+        </tr>
+        </table><br><br>
+        <h3>ColSpan</h3>
+        <table border="1px">
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Gender</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jayden</td>
+                <td>CSE</td>
+                <td>Male</td>
+                <td>40000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Eliana</td>
+                <td>IT</td>
+                <td>Female</td>
+                <td>350000</td>
+            </tr>
+            <!-- colspan -->
+            <tr>
+                <td>3</td>
+                <td>Rowan</td> 
+                <td>IT</td>
+                <td>Male</td>
+                <td>40000</td>
+            </tr>
+            <tr>
+                <td colspan="5">Total-3</td>
+            </tr>
+            </table>
+        </p>
+    </body>
+</html>

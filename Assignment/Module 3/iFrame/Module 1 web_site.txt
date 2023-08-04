@@ -1,0 +1,24 @@
+HTML - Hyper Text Markup Language. Describe the structure of webpage.
+
+Website :- Static & Dynamic - In Static website functionalites are not provided AND in Dynamic website functionalites are provided.
+
+CSS - Cascading Style Sheet. Used for design our website with different fonts, layouts, colors and like many more.
+
+JavaScript - It can not save memory temporary or permanantly.
+
+Jquery - Make work easy for JavaScript or our website.
+
+Database - Collection of website's data. This is structured data.
+
+Webpage & Homepage - Homepage is the first page of website we can also called webpage but we can't called any webpage to homepage. AND webpage is the part of any website or the pages of website is called webpages.
+
+Bootstrap - We can easily make websites to help of bootstrap.
+
+SDLC - Software Development Life Cycle. Used for analyzing , maintain, improve functionalites of websites and to know about user's requirement.
+
+Search Engine - Search any topics to know their information (Google). 
+
+Web Browser - Platform to run our program. Many like Chrom, Firefox, Microsoft Edge, Mozila etc.
+
+Web designer & Web developer - Difference is web designer can only make desing of websites without code and web developer is make website with coding.
+
