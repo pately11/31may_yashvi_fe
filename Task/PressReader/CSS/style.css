@@ -1,0 +1,197 @@
+/* part-1 */
+.header {
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    color: gray;
+    border: 1px solid black;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.header a.header-left {
+    width: 15%;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: #1d466b;
+    color: #fff;
+}
+
+.header .header-right {
+    float: right;
+}
+
+.header .header-right a {
+    color: #fff;
+    padding: 20px;
+    /* float: right; */
+
+}
+
+.Contain {
+    height: 400px;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.Contain h2 {
+    border-bottom: gray solid;
+    margin: 0;
+}
+
+.Contain p {
+    color: gray;
+}
+
+.Contain span a {
+    color: brown;
+}
+
+.Contain .info {
+    height: auto;
+    width: auto;
+}
+
+.Contain .info .info-img,
+.data {
+    height: 220px;
+    width: 50%;
+    float: left;
+}
+
+.Contain .info .info-img img {
+    height: 100%;
+    width: 70%;
+}
+
+.Contain .info .info-img button {
+    height: 30px;
+    width: 70%;
+    background: #1d466b;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.list {
+    float: right;
+    width: 27%;
+    width: 350px;
+    border: 1px solid gray;
+    text-align: center;
+    margin-top: -300px;
+    margin-right: 50px;
+
+}
+
+.list p {
+    border-bottom: 1px solid gray;
+    width: 50%;
+    margin: 10px auto;
+}
+
+/* part-2  */
+.image {
+
+    display: block;
+    height: 290px;
+    float: right;
+    margin-top: -400px;
+    margin-right: 50px; 
+    width: 1700px;
+
+}
+
+.image .part1 img {
+    border: 1px solid gray;
+    width: 10%;
+    float: right;
+    clear: left;
+}
+
+.image .part2 img {
+    border: 1px solid gray;
+    width: 10%;
+    float: right;
+    clear: left;
+}
+
+.image .part3 img {
+    border: 1px solid gray;
+    width: 10%;
+    clear: right;
+    float: right;
+}
+
+.image .part4 img {
+    border: 1px solid gray;
+    width: 10%;
+    float: right;
+}
+
+/* part-3  */
+.images {
+    width: 40%;
+    height: 300px;
+    padding: 30px ;
+    float: right;
+    margin-top: -450px;
+    margin-right: -170px;
+    display: block;
+}
+
+.images .part-2 img {
+    /* float: none; */
+    width: 20%;
+}
+
+.images .part-2 .p3-1 img {
+    /* float: right; */
+    clear: left;
+}
+
+.images .part-2 .p3-2 img {
+    float: none;
+    clear: right;
+}
+
+.images .part-2 .p3-3 img {
+    /* float: right; */
+    clear: auto;
+}
+
+.images .part-2 .p3-4 img {
+    /* float: right; */
+    clear: left;
+}
+
+/* part-4  */
+.part1-2 {
+    border: 1px solid gray;
+    float: right;
+    margin-top: -350px;
+    margin-right: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+/* FOOTER  */
+.footer .ft-right {
+    float: right;
+}
