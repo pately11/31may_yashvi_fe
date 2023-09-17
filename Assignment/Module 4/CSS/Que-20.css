@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 28vh 28vh 28vh 10vh;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.container .child {
+    text-align: center;
+    font-size: 25px;
+}
+.container .child img{
+    height: 100%;
+    width: 100%;
+}
+.c-1 {
+
+    grid-column: span 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.c-2 {
+
+    grid-column: span 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.c-3 {
+
+    grid-column: span 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.c-4 {
+
+    grid-column: span 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.c-5 {
+    grid-column: span 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.c-6 {
+    grid-column: span 6;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.c-7 {
+    grid-column: span 6;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.c-8 {
+    grid-column: span 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.c-9 {
+    grid-column: span 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.c-10 {
+    grid-column: span 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
