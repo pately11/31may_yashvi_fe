@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-4</title>
+</head>
+
+<body>
+    <h2>Que-4 Canvas and SVG tags</h2>
+    <hr>
+    <p>
+    <h3>Canvas:-</h3>
+    Canvas is used for 2d (two dimensional) graphics.In graphics, when you zoom in on the photo, it gets blur.
+    <h4>Example:-</h4>
+    <canvas id="rec" height="500px" width="800px" style="border:5px solid black;">
+        Canvas isn't wok properly
+    </canvas>
+
+    <script>
+        var can = document.getElementById('rec');
+        var context = can.getContext('2d');
+        console.log(context);
+        context.fillStyle = "#FF0000";
+        context.strokeRect(250,100,300,200);
+    </script>
+    <h3>SVG:-</h3>
+    SVG stands for Scalable Vector Grapichs. Define vector based(2 dimensional) graphics. In that  we can increse the size of picture without resolution.</p>
+    <h4>Example:-</h4>
+    <svg height="300px" width="400px" stroke="yellow" stroke-width="1px" style="border: 1px solid black;">
+        <rect x="100" y="40" rx="40" ry="40" width="200" height="200"/>
+    </svg>
+    </p>
+</body>
+
+</html>
