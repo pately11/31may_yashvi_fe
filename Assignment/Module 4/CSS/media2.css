@@ -1,0 +1,45 @@
+@media (min-width: 501px) and (max-width: 700px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .head, .heading, .container, .account, .content, .contentpart2, .contentmainpart2{
+        display: none;
+    }
+        .cname input {
+            width: 50%;
+            text-align: center;
+        }
+    
+        .searchbar button {
+            width: 50%;
+            margin: 5px;
+        }
+    
+        .heading {
+            height: 80px; 
+        }
+    
+        .heading h1 {
+            font-size: 24px; 
+        }
+    
+        .icon{
+            text-align: center;
+        }
+        .icon li {
+            font-size: 20px; 
+            padding: 20px; 
+        }
+
+        .graph{
+            text-align: center;
+        }
+        .graph img {
+            width: 95vw; 
+            height: 100vh;
+        }
+
+    }
