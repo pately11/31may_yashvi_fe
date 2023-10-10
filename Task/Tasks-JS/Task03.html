@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Task-03</title>
+    <style>
+        div{
+            padding: 10px;
+            border:1px solid gray;
+            background-color: antiquewhite;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3>Task-03: Create Menu </h3>
+        <button onclick="bar() "><i class="fa-solid fa-bars"></i></button>
+        <div id="menu">
+        <div>HOME</div>
+        <div>ABOUT</div>
+        <div>CONTACT</div>
+        <div>LOGIN</div>
+    </div>
+    <script>
+        var inp = document.getElementById('menu').style.display = 'none';
+
+        function bar() {
+            inp = document.getElementById('menu').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
