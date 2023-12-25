@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Sign Up</legend>
+            <label for="fnm">First Name</label>
+            <input type="text" name="fnm" id="FNM" required>
+            <br><br>
+            <label for="lnm">Last Name</label>
+            <input type="text" name="lnm" id="LNM" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="mail" required>
+            <br><br>
+            <label for="psw">Password</label>
+            <input type="password" name="psw" id="pass" pattern="[0-9, a-z, @]{6}" minlength="6" maxlength="6" required>
+            <br><br>
+            <label for="phn">Telephone Number</label>
+            <input type="tel" name="phn" id="phn" pattern="[0-9]{10}" minlength="10" maxlength="10" required>
+            <br><br>
+            <p>Address is ame or not?</p>
+            <input type="radio" name="choice" id="yes">
+            <label for="yes">YES</label>
+            <input type="radio" name="choice" id="no">
+            <label for="no">NO</label>
+            <br><br>
+            <label for="oadd">Old Address:</label>
+            <textarea name="oadd" id="" cols="26" rows="6" required></textarea>
+            <br><br>
+            <label for="nadd">New Address:</label>
+            <textarea name="nadd" id="" cols="26" rows="6" required></textarea>
+            <br><br>
+            <input type="submit" name="" id="" value="Submit Form">
+        </fieldset>
+    </form>
+    <script>
+        
+    </script>
+</body>
+</html>
