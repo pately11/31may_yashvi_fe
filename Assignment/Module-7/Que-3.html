@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Que-3</title>
+    <style>
+        .slider {
+  width: 400px;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  width: 400px;
+  flex: 0 0 auto;
+}
+
+.prevBtn,
+.nextBtn {
+  margin-top: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <h2>Que-3 How to create slider with animation?</h2>
+    <div class="slider">
+        <div class="slides">
+          <div class="slide">Slide 1</div>
+          <div class="slide">Slide 2</div>
+          <div class="slide">Slide 3</div>
+        </div>
+        <button class="prevBtn" onclick="prevSlide()">Previous</button>
+        <button class="nextBtn" onclick="nextSlide()">Next</button>
+      </div>
+      <script>
+        let slideIndex = 0;
+
+function showSlide(index) {
+  const slides = document.querySelectorAll('.slide');
+  if (index >= slides.length) { slideIndex = 0; }
+  if (index < 0) { slideIndex = slides.length - 1; }
+  const offset = -slideIndex * slides[0].offsetWidth;
+  document.querySelector('.slides').style.transform = `translateX(${offset}px)`;
+}
+
+function nextSlide() {
+  slideIndex++;
+  showSlide(slideIndex);
+}
+
+function prevSlide() {
+  slideIndex--;
+  showSlide(slideIndex);
+}
+
+// Auto slide change
+setInterval(nextSlide, 3000);
+
+      </script>      
+</body>
+</html>
