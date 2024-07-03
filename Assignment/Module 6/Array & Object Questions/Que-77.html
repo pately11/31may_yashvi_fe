@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-77</title>
+</head>
+<body>
+    <h2>Que-77 Create password field with show hide functionalities</h2>
+    <hr>
+    <form action="#">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <input type="checkbox" id="pass"> Show Password
+    </form>
+    <script>
+        document.getElementById('pass').addEventListener('change', function (e) {
+  const passwordField = document.getElementById('password');
+  if (this.checked) {
+    passwordField.type = 'text';
+  } else {
+    passwordField.type = 'password';
+  }
+});
+
+    </script>
+</body>
+</html>
