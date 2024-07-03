@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-68</title>
+</head>
+<body>
+    <h2>Que68 What is the difference between ViewState and SessionState?</h2>
+    <hr>
+    <h3>ViewState:</h3>
+    <h4>1.Scope:</h4>
+    <li>Client-Side: ViewState is a client-side state management technique used primarily in ASP.NET Web Forms.</li>
+    <h4>2.Storage:</h4>
+    <li>Hidden Field: ViewState data is stored as a hidden field within the HTML page.</li>
+    <h4>3.Persistence:</h4>
+    <li>Page Level: ViewState persists the state of controls and page-specific data across postbacks (when a page submits data to itself).</li>
+    <h4>4.Size Limitations:</h4>
+    <li>Limited by Browser: Since ViewState is stored on the client side, its size is limited by the maximum request size allowed by browsers (typically around 4MB).</li>
+    <h4>5.Usage:</h4>
+    <li>ViewState is automatically managed by ASP.NET Web Forms for maintaining the state of controls between postbacks. It helps recreate the state of controls like TextBoxes, DropDownLists, etc., avoiding the need for developers to manually manage state persistence.</li>
+    <br>
+    <h3>SessionState:</h3>
+    <h4>1.Scope:</h4>
+    <li>Server-Side: SessionState is a server-side state management technique available in various web frameworks including ASP.NET MVC, PHP, and others.</li>
+    <h4>2.Storage:</h4>
+    <li>Server Memory or Database: SessionState data is typically stored either in the server's memory or in a database, depending on the configuration (e.g., in-proc, SQL Server, or StateServer modes in ASP.NET).</li>
+    <h4>3.Persistence:</h4>
+    <li>User Session: SessionState persists data for a user across multiple requests during their session on the website. It's useful for storing user-specific information such as login credentials, shopping cart items, etc.
+    </li>
+    <h4>4.Size of Limitations:</h4>
+    <li>Configurable: SessionState size limits are configurable and can be adjusted based on application needs and server resources.</li>
+    <h4>5.Usage:</h4>
+    <li>SessionState is used to maintain user-specific data throughout their session on the website. It provides a way to store and retrieve data related to a specific user across multiple pages or requests.</li>
+</body>
+</html>

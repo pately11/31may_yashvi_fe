@@ -1,0 +1,18 @@
+<h2>Que-35 Write a program make a summation of given number (E.g., 1523 Ans: - 11) in JS?</h2>
+<hr>
+<script>
+    function sumOfDigits(number) {
+  let sum = 0;
+  let num = Math.abs(number);
+
+  while (num > 0) {
+    sum += num % 10;
+    num = Math.floor(num / 10);
+  }
+
+  return sum;
+}
+let number = 78264;
+let result = sumOfDigits(number);
+document.write("Sum of digits of " + number + " is: " + result);
+</script>

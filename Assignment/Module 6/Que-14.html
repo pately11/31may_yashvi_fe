@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-14</title>
+</head>
+<body>
+    <h2>Que-14 Write a JavaScript exercise to get the extension of a filename.?</h2><hr>
+    
+    <script>
+function getFileExtension(filename) {
+    if (typeof filename !== 'string' || filename.lastIndexOf('.') === -1) {
+        return "";
+    }
+    const lastDotIndex = filename.lastIndexOf('.');
+    return filename.substring(lastDotIndex + 1);
+}
+document.write(getFileExtension("document.pdf"));
+document.write(getFileExtension("archive.tar.gz")); 
+document.write(getFileExtension("filename")); 
+document.write(getFileExtension("my.photo.jpeg"));
+
+    </script>
+</body>
+</html>
